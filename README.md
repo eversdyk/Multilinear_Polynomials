@@ -1,3 +1,5 @@
+This problem was created by CodeWars user "SleepingCode".
+
 Description:
 
 When we attended middle school were asked to simplify mathematical expressions like "3x-yx+2xy-x" (or usually bigger), and that was easy-peasy ("2x+xy"). But tell that to your pc and we'll see!
@@ -19,6 +21,6 @@ If two monomials have the same number of variables, they appears in lexicographi
 There is no leading + sign if the first coefficient is positive, e.g.:
 "-y+x" -> "x-y", but no restrictions for -: "y-x" ->"-x+y"
 
-N.B. to keep it simplest, the string in input is restricted to represent only multilinear non-constant polynomials, so you won't find something like `-3+yx^2'. Multilinear means in this context: of degree 1 on each variable.
+N.B. to keep it simplest, the string in input is restricted to represent only multilinear non-constant polynomials, so you won't find something like '-3+yx^2'. Multilinear means in this context: of degree 1 on each variable.
 
 Warning: the string in input can contain arbitrary variables represented by lowercase characters in the english alphabet.
